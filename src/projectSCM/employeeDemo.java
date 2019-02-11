@@ -30,7 +30,7 @@ public class employeeDemo {
 			sum = new calSalary(s,sl);
 		}
 		
-		print.print(emp.getEmpNumber(), sum.sumsalary());
+		print.print(emp.getEmpName(), sum.sumsalary());
 	}
 
 }
