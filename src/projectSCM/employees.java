@@ -3,7 +3,7 @@ package projectSCM;
 public class employees {
 	private sales sale;
 	public String empNumber;
-	public String emptName;
+	public String empName;
 	public int salary;
 
 	
@@ -13,7 +13,7 @@ public class employees {
 	
 	public employees(String nb, String n, int s) {
 		this.empNumber = nb;
-		this.emptName = n;
+		this.empName = n;
 		this.salary = s;
 	}
 
@@ -26,12 +26,12 @@ public class employees {
 		this.empNumber = empNumber;
 	}
 
-	public String getEmptName() {
-		return emptName;
+	public String getEmpName() {
+		return empName;
 	}
 
-	public void setEmptName(String emptName) {
-		this.emptName = emptName;
+	public void setEmpName(String emptName) {
+		this.empName = emptName;
 	}
 
 	public int getSalary() {
